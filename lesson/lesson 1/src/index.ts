@@ -6,45 +6,6 @@
 
 // add("1", 1); // '11'
 
-// ===================================================
-// let total: number = 100;
-// let string: string = "Bob";
-// let isActive: boolean = false;
-// let empty: null = null;
-// let undf: undefined = undefined;
-
-// let age = 1;
-// age = "12";
-
-// ===================================================
-
-// const numbers: number[] = [1, 2, 5, 6,0];
-// numbers.push("12")
-
-// ==================================================
-
-// const user: { name: string; age: number } = {
-//   name: "Bot",
-//   age: 12,
-// };
-
-type User = {
-  name: string;
-  age: number;
-};
-
-const user: User = {
-  name: "bob",
-  age: 12,
-};
-
-// user.name = 1;
-// user.age = "15";
-
-// type eventType = "Lesoon" | "deadline";
-// const events: eventType = "deadline";
-
-// ==================================================
 // let total: number = 100;
 // let name: string = "Bob";
 // let isActive: boolean = false;
@@ -147,19 +108,19 @@ const user: User = {
 //   },
 // };
 
-// type User = {
-//   name: string;
-//   age: number;
-//   role?: string;
-// };
+type User = {
+  name: string;
+  age: number;
+  role?: string;
+};
 
-// const user: User = {
-//   name: "bob",
-//   age: 12,
-// };
+const user: User = {
+  name: "bob",
+  age: 12,
+};
 
-// const admin: User = {
-//   name: "John",
-//   age: 23,
-//   role: "Admin",
-// };
+const admin: User = {
+  name: "John",
+  age: 23,
+  role: "Admin",
+};
