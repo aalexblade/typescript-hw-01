@@ -22,9 +22,9 @@
 //   fantasy: 9,
 // };
 
-interface MixedDictionary {
-  [key: string]: string | number;
-}
+// interface MixedDictionary {
+//   [key: string]: string | number;
+// }
 
 // let userInfo: MixedDictionary = {
 //   username: "alex",
